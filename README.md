@@ -52,7 +52,7 @@ tensorboard
 由于项目源码使用 `from src.xxx import ...` 这种导入方式，命令行运行时建议在项目根目录设置 `PYTHONPATH`：
 
 ```bash
-cd /Users/dami/atguigu/model/00_code/translation
+cd /Users/xxxx/translation
 PYTHONPATH=. /opt/anaconda3/envs/nlp/bin/python src/predict.py
 ```
 
@@ -333,7 +333,7 @@ PYTORCH_ENABLE_MPS_FALLBACK=1
 解决方式是在项目根目录运行，并加上 `PYTHONPATH=.`：
 
 ```bash
-cd /Users/dami/atguigu/model/00_code/translation
+cd /Users/xxxx/translation
 PYTHONPATH=. /opt/anaconda3/envs/nlp/bin/python src/predict.py
 ```
 
